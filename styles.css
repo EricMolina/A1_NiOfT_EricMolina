@@ -1,0 +1,374 @@
+/*ESTILOS GENERALES*/
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
+
+* {
+    box-sizing: border-box;
+    /* https://fonts.google.com/ */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
+
+
+/*ESTILOS DE TEXTO*/
+
+.S3text {
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 10%;
+    padding-top: 1%;
+}
+
+.S3image {
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 90%;
+    padding-top: 4%;
+}
+
+.S3image_image {
+    width: 75%;
+}
+
+.S4image {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
+
+.S4image_image {
+    width: 94%;
+    padding-top: 18%;
+    padding-left: 12%;
+}
+
+.S4text {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.S4text h1 {
+    font-size: 80px;
+    padding-left: 3%;
+    padding-top: 5%;
+    margin: 0;
+    text-align: left;
+}
+
+.S4text h2 {
+    font-size: 45px;
+    padding-left: 3%;
+    margin: 0;
+    text-align: left;
+    padding-right: 18%;
+}
+
+
+/*ESTILOS DE DIFERENTES ROW*/
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
+
+#Section-1 {
+    text-align: center;
+    height: 120vh;
+    background-image: url(./img/banner-2.jpg);
+    background-size: cover;
+    font-size: 45px;
+}
+
+#Section-2 {
+    text-align: left;
+    height: 90vh;
+    background-size: cover;
+}
+
+#Section-3 {
+    text-align: center;
+    height: 80vh;
+    background-color: #25eda5;
+    background-size: cover;
+    font-size: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#Section-4 {
+    text-align: center;
+    height: 105vh;
+    background-size: cover;
+    font-size: 45px;
+}
+
+#Section-5 {
+    text-align: center;
+    height: 45vh;
+    background-color: #25eda5;
+    background-size: cover;
+    font-size: 45px;
+}
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
+
+#Section-6 {
+    text-align: center;
+    height: 40vh;
+    background-size: cover;
+    background-color: #46a6fc;
+    font-size: 32px;
+}
+
+#Section-7 {
+    height: 25vh;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+
+/*ESTILOS DE DIFERENTES COLUMN*/
+
+.column-2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.column-2_S2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.column-4 {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.column-4_1 {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
+
+.column4_6 {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.column-4_3 {
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+
+
+/*ESTILOS EXTRA*/
+
+.center {
+    margin: auto;
+    padding-top: 20%;
+    width: 70%;
+}
+
+.center2 {
+    margin: auto;
+    padding-top: 4%;
+    width: 70%;
+}
+
+.center7 {
+    padding-top: 3%
+}
+
+.right7 {
+    margin-left: 10%;
+}
+
+.img2 {
+    width: 75%;
+    height: 75%;
+}
+
+.img7 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
+
+.margin2 {
+    padding: 0% 10% 6% 0%;
+    margin: 0;
+}
+
+.height60 {
+    height: 60%;
+    width: 100%;
+    margin: 0;
+    padding: 5% 10% 5% 20%;
+    font-size: 70px;
+}
+
+.height40 {
+    height: 40%;
+    width: 100%;
+    margin: 0;
+    padding: 0% 10% 0% 20%;
+    font-size: 40px;
+}
+
+#Section-3 h1 {
+    font-size: 75px;
+    padding-top: 3%;
+}
+
+.S3text p {
+    margin: 0;
+}
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
+
+@media screen and (max-width: 700px) {
+    /* Aquí dentro van las reglas @media */
+    .center {
+        padding-top: 40%;
+        width: 80%;
+    }
+    .column-2_S2 {
+        width: 100%;
+        height: 50%;
+        float: left;
+    }
+    .height60 {
+        padding: 5% 15% 5% 10%;
+        font-size: 46px;
+    }
+    .height40 {
+        padding: 0% 10% 0% 10%;
+        font-size: 35px;
+    }
+    #Section-2 {
+        height: 110vh;
+    }
+    .margin2 {
+        padding: 2% 10% 0% 20%;
+    }
+    .column-4_3 {
+        width: 50%;
+        height: 40%;
+        float: left;
+    }
+    #Section-3 h1 {
+        font-size: 50px;
+        padding-top: 3%;
+    }
+    #Section-3 {
+        height: 110vh;
+    }
+    .S3text p {
+        margin: 0;
+    }
+    .S4image {
+        width: 100%;
+        height: 50%;
+    }
+    .S4image_image {
+        width: 80%;
+        padding-top: 0%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .S4text {
+        width: 100%;
+        height: 20%;
+    }
+    .S4text h1 {
+        font-size: 45px;
+        padding-left: 14%;
+        padding-right: 6%;
+        padding-top: 5%;
+        margin: 0;
+    }
+    .S4text h2 {
+        font-size: 34px;
+        padding-left: 14%;
+        padding-right: 10%;
+        padding-top: 2%;
+    }
+    .column4_6 {
+        width: 50%;
+    }
+    #Section-6 {
+        text-align: center;
+        height: 70vh;
+        font-size: 22px;
+    }
+    .center2 {
+        margin: 0% 10% 0% 10%;
+        padding-top: 57%;
+        width: 80%;
+    }
+    .column-2 {
+        width: 93%;
+        height: 40%;
+        margin-left: 7%;
+    }
+    .column-2 h4 {
+        width: 80%;
+    }
+    #Section-7 {
+        height: 50vh;
+    }
+    .column-4 {
+        width: 50%;
+        height: 30%;
+        padding: 0;
+    }
+    .column-4_1 {
+        width: 33%;
+        height: 30%;
+        padding: 0;
+        margin-left: 2%;
+    }
+    #Section-7 h4 {
+        padding-top: 8%;
+        font-size: 25px;
+    }
+    #Section-7 p {
+        font-size: 25px;
+        padding-left: 14%;
+    }
+}
+
+
+/*TRABAJO DE ERIC MOLINA MOLINA (por si roban codigo)*/
